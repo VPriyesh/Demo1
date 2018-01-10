@@ -1,0 +1,8 @@
+<?xml version="1.0" ?> 
+<project name="AntExample1" default="war">
+	 <target name="war" >
+    <war destfile="/opt/source/Shopping.war" webxml="/opt/jenkins/workspace/DemoProject-I/WEB-INF/web.xml">
+        <fileset dir="/opt/jenkins/workspace/DemoProject-I/"/>
+         </war>
+</project>	
+
