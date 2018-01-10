@@ -144,7 +144,7 @@
 		<div class="col-md-4"></div>
 	</div>
 </div>
-
+<!-- jQuery (necessary for Bootstrap's JavaScript ashkcfvkvckkvkc  ashvJHVCVVJJ  cjhVJHCVVJ gjVJSVDCvVJ plugins) -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="Scripts/jquery-1.11.x.min.js"></script>
 <script src="Scripts/js/bootstrap.min.js"></script>
