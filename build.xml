@@ -4,6 +4,31 @@
     <war destfile="/opt/source/Shopping.war" webxml="/opt/jenkins/workspace/DemoProject-I/WEB-INF/web.xml">
         <fileset dir="/opt/jenkins/workspace/DemoProject-I/"/>
          </war>
-	</target>
-</project>	
+		 </target>
+        <target name="stop" >
+        <apply executable="tomcat">
+  <arg value="stop"/>
+                <fileset dir="/etc/init.d/"/>
+  </apply>
+                <antcall target="Remove"/>
+</target>
+        <target name="Remove" >
+
+                <delete file="/usr/share/tomcat/webapps/HTML*"/>
+                <delete dir="/usr/share/tomcat/webapps/HTML"/>
+                                <antcall target="DeployTomcat"/>
+</target>
+        <target name="DeployTomcat" >
+                <copy file="/opt/source/Shopping.war" todir="/usr/share/tomcat/webapps/" overwrite="true"/>
+        <antcall target="start"/>
+</target>
+
+<target name="start" >
+   <apply executable="tomcat">
+  <arg value="start"/>
+           <fileset dir="/etc/init.d/"/>
+  </apply></target>
+</project>
+
+		
 
