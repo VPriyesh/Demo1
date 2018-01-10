@@ -2,8 +2,8 @@
 <project name="AntExample1" default="war">	
 	
 	 <target name="war" >
-    <war destfile="/opt/SourceCode/HTML.war" webxml="WEB-INF/web.xml">
-        <fileset dir="/opt/jenkins/workspace/FirstProject/"/>
+    <war destfile="/opt/source/Shopping.war" webxml="WEB-INF/web.xml">
+        <fileset dir="/opt/jenkins/workspace/Demo1/"/>
          </war>
 </project>	
 
