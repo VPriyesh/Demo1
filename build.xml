@@ -15,8 +15,8 @@
 </target>
         <target name="Remove" >
 
-                <delete file="/usr/share/tomcat/webapps/HTML*"/>
-                <delete dir="/usr/share/tomcat/webapps/HTML"/>
+                <delete file="/usr/share/tomcat/webapps/Shopping*"/>
+                <delete dir="/usr/share/tomcat/webapps/Shopping"/>
                                 <antcall target="DeployTomcat"/>
 </target>
         <target name="DeployTomcat" >
