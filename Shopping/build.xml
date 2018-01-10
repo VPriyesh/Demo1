@@ -3,7 +3,7 @@
 	
 	 <target name="war" >
     <war destfile="/opt/source/Shopping.war" webxml="WEB-INF/web.xml">
-        <fileset dir="/opt/jenkins/workspace/Demo1/"/>
+        <fileset dir="/opt/jenkins/workspace/DemoProject-I/"/>
          </war>
 </project>	
 
