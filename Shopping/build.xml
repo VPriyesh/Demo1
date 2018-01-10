@@ -1,0 +1,9 @@
+<?xml version="1.0" ?> 
+<project name="AntExample1" default="war">	
+	
+	 <target name="war" >
+    <war destfile="/opt/SourceCode/HTML.war" webxml="WEB-INF/web.xml">
+        <fileset dir="/opt/jenkins/workspace/FirstProject/"/>
+         </war>
+</project>	
+
