@@ -8,6 +8,24 @@
 		 </target>
         <target name="stop" >
         <apply executable="tomcat">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
   <arg value="stop"/>
                 <fileset dir="/etc/init.d/"/>
   </apply>
