@@ -4,5 +4,6 @@
     <war destfile="/opt/source/Shopping.war" webxml="/opt/jenkins/workspace/DemoProject-I/WEB-INF/web.xml">
         <fileset dir="/opt/jenkins/workspace/DemoProject-I/"/>
          </war>
+	</target>
 </project>	
 
